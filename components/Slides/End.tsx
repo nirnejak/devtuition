@@ -47,7 +47,9 @@ const End: React.FC<Props> = ({ username = "nirnejak", className }) => {
           transition={{ delay: 0.1, duration: 0.4, type: "spring" }}
         >
           <span className="text-gray-900">Join at -</span>{" "}
-          https://www.devtuition.org/
+          <a href="https://www.devtuition.org/" target="_blank">
+            https://www.devtuition.org/
+          </a>
         </motion.p>
       </div>
     </div>
