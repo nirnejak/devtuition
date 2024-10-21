@@ -107,7 +107,10 @@ const slides: React.ReactNode[] = [
 const Home: React.FC = () => {
   return (
     <div>
-      <Presentation slides={slides} />
+      <Presentation
+        slides={slides}
+        sourceLink="nirnejak/devtuition" // format: '<username>/<repository>'
+      />
     </div>
   )
 }
