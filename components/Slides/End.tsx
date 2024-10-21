@@ -46,31 +46,8 @@ const End: React.FC<Props> = ({ username = "nirnejak", className }) => {
           variants={variants}
           transition={{ delay: 0.1, duration: 0.4, type: "spring" }}
         >
-          <span className="text-gray-900">{username}</span>.com
-        </motion.p>
-        <motion.p
-          initial="hidden"
-          animate={controls}
-          variants={variants}
-          transition={{ delay: 0.15, duration: 0.4, type: "spring" }}
-        >
-          twitter.com/<span className="text-gray-900">{username}</span>
-        </motion.p>
-        <motion.p
-          initial="hidden"
-          animate={controls}
-          variants={variants}
-          transition={{ delay: 0.2, duration: 0.4, type: "spring" }}
-        >
-          github.com/<span className="text-gray-900">{username}</span>
-        </motion.p>
-        <motion.p
-          initial="hidden"
-          animate={controls}
-          variants={variants}
-          transition={{ delay: 0.25, duration: 0.4, type: "spring" }}
-        >
-          dribbble.com/<span className="text-gray-900">{username}</span>
+          <span className="text-gray-900">Join at -</span>{" "}
+          https://www.devtuition.org/
         </motion.p>
       </div>
     </div>

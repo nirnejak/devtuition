@@ -101,7 +101,7 @@ const slides: React.ReactNode[] = [
     className="w-[680px]"
   />,
   <About key="question" title="Questions?" className="w-[680px]" />,
-  <End key="end" username="nirnejak" />,
+  <End key="end" />,
 ]
 
 const Home: React.FC = () => {
