@@ -60,6 +60,7 @@ const slides: React.ReactNode[] = [
     key="points-1"
     title="Project-based learning"
     points={[
+      "Industry based approach",
       "Variety based learning",
       "Showing as proof of work(recruiters & clients)",
       "As a startup venture.",
@@ -92,15 +93,14 @@ const slides: React.ReactNode[] = [
     key="portfolio"
     title="Portfolio"
     points={[
-      "Show how awesome you are.",
-      "It'll help recruiters and clients see your work.",
-      "Building a portfolio",
+      "Show off your skills",
+      "Help recruiters and clients see your work",
       "Present your projects",
       "List out your blogs",
     ]}
     className="w-[680px]"
   />,
-  <About key="question" title="Question?" className="w-[680px]" />,
+  <About key="question" title="Questions?" className="w-[680px]" />,
   <End key="end" username="nirnejak" />,
 ]
 
