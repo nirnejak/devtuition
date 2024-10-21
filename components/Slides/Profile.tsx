@@ -43,7 +43,11 @@ const About: React.FC<Props> = ({ profiles = [], className }) => {
           initial="hidden"
           animate={controls}
           variants={variants}
-          transition={{ delay: 0 * (index + 1), duration: 0.4, type: "spring" }}
+          transition={{
+            delay: 0.1 * (index + 1),
+            duration: 0.4,
+            type: "spring",
+          }}
           className="flex flex-col items-center"
         >
           <div
