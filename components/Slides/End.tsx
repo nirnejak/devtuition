@@ -7,11 +7,10 @@ import { motion, useAnimation } from "framer-motion"
 import classNames from "utils/classNames"
 
 interface Props {
-  username: string
   className?: string
 }
 
-const End: React.FC<Props> = ({ username = "nirnejak", className }) => {
+const End: React.FC<Props> = ({ className }) => {
   const controls = useAnimation()
   const [ref, inView] = useInView()
 
