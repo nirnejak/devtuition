@@ -43,13 +43,7 @@ const monoFont = localFont({
 const RootLayout: React.FC<Props> = ({ children }) => {
   return (
     <html lang="en">
-      <head>
-        <script
-          defer
-          data-domain="react-presentation-maker.vercel.app"
-          src="https://plausible.io/js/script.js"
-        />
-      </head>
+      <head></head>
 
       <body
         className={classNames(
